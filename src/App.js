@@ -27,7 +27,13 @@ function App() {
   };
 
   const displayTempText = (temp, weather) => {
-    if (temp >= 72) {
+    if (temp >= 85) {
+      setDisplayedText(
+        insults.hot[
+          Math.floor(Math.random(insults.hot) * insults.hot.length)
+        ]
+      );
+    }else if (temp >= 72 && temp < 85) {
       setDisplayedText(
         insults.warmToHot[
           Math.floor(Math.random(insults.warmToHot) * insults.warmToHot.length)
