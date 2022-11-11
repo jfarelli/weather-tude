@@ -1,0 +1,41 @@
+.info-div {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-name {
+  margin-bottom: -1%;
+  margin-top: 3.5%;
+}
+
+.weather-description {
+  font-size: 1.5em;
+  margin-top: -1%;
+  margin-bottom: 0;
+}
+
+
+.display-box {
+  background-color: rgba(245, 245, 245, 0.3);
+  width: 20em; 
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  border-radius: 15px;
+  line-height: 60%;
+}
+
+.feels-like, .humidity, .wind-speed {
+  font-weight: bold;
+}
+
+
+
+.rude-text {
+  font-weight: bold;
+  font-size: 2.5em;
+}
